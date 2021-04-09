@@ -1,0 +1,11 @@
+<p>
+    Lista de cursos do Angular {{nomePortal}}
+</p>
+
+<app-cursos-detalhe></app-cursos-detalhe>
+
+<ul>
+    <li *ngFor="let curso of cursos">
+        {{curso}}
+    </li>
+</ul>
